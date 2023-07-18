@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}   
+
+
+
+
+
+
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("images/bannerBgImage.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #ef5a8c;
+    border: 2px solid #c00d2e;
+} 
+
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 4px solid rgb(89, 98, 234);
+}
+
+.card-img-top{
+    height: 50vh;
+}
+
+
+
+@keyframes drip{ 
+    0%{
+        opacity:0;
+        transform: translateY(0);
+    }
+    35%{
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(110vph);
+    }
+    100%{
+        transform: translateY(110vph);
+    }
+}
